@@ -1,5 +1,11 @@
 <?php
-    
+    $user=$_GET['u'];
+    $pass=$_GET['s'];
+    if($user == "situFtp" && $pass == "123"){
+
+    }else{
+        echo"<script>alert('Use your password');window.location.href = 'https://chinmayakumarbiswal.in/';</script>";
+    }
     
 ?>
 
